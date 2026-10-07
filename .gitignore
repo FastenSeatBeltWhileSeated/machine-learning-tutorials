@@ -1,6 +1,21 @@
-*/.ipynb_checkpoints/
-*/*/.ipynb_checkpoints/
+# Python and notebooks
+__pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-.idea
-*/.idea
-*/*/.idea
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+# Editors and operating systems
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+# .NET generated output
+bin/
+obj/
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example

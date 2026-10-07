@@ -1,0 +1,939 @@
+{
+  "source_repository": "TannerGilbert/Tutorials",
+  "source_snapshot": "d5e25a0f182a7a396dd2c9a8c3248134070fab0e",
+  "license": "MIT; see LICENSE",
+  "moved_files": [
+    {
+      "from": "A guide to Ensemble Learning/A guide to Ensemble Learning.ipynb",
+      "to": "tutorials/machine-learning/ensemble-learning/A guide to Ensemble Learning.ipynb",
+      "sha": "e8f65d5af6f1fffde611eb9bbbe53b665058eacf"
+    },
+    {
+      "from": "A guide to Ensemble Learning/AveragingModels.py",
+      "to": "tutorials/machine-learning/ensemble-learning/AveragingModels.py",
+      "sha": "16c672413016d7b815339078536e95a160c1f077"
+    },
+    {
+      "from": "A guide to Ensemble Learning/BaggingModels.py",
+      "to": "tutorials/machine-learning/ensemble-learning/BaggingModels.py",
+      "sha": "dea953af35d1f6b3e943f4388a7f4e3120ae5320"
+    },
+    {
+      "from": "A guide to Ensemble Learning/BlendingMondels.py",
+      "to": "tutorials/machine-learning/ensemble-learning/BlendingMondels.py",
+      "sha": "c072b3f0db03e9ddeef560ff2dcb35d50e266a6a"
+    },
+    {
+      "from": "A guide to Ensemble Learning/MajorityVote.py",
+      "to": "tutorials/machine-learning/ensemble-learning/MajorityVote.py",
+      "sha": "a9f2159579700e2357d195c8d828bc1c7827d2ee"
+    },
+    {
+      "from": "A guide to Ensemble Learning/StackingModels.py",
+      "to": "tutorials/machine-learning/ensemble-learning/StackingModels.py",
+      "sha": "8c17fd4281739aebc4386baf8de78cf316cd21cd"
+    },
+    {
+      "from": "A guide to Ensemble Learning/StackingModelsRetrained.py",
+      "to": "tutorials/machine-learning/ensemble-learning/StackingModelsRetrained.py",
+      "sha": "d42f94e6ead38666130d92bfbf3f2fc11d550567"
+    },
+    {
+      "from": "A guide to Ensemble Learning/WeightedAveragedModels.py",
+      "to": "tutorials/machine-learning/ensemble-learning/WeightedAveragedModels.py",
+      "sha": "3011a08ff80b4d475fd4272536bf00ff0c811b34"
+    },
+    {
+      "from": "A guide to Ensemble Learning/requirements.txt",
+      "to": "tutorials/machine-learning/ensemble-learning/requirements.txt",
+      "sha": "f294ac7da63776bb1d073bba336fe37bc3e4d15b"
+    },
+    {
+      "from": "Deploying your ML Model/README.md",
+      "to": "tutorials/deployment/flask/README.md",
+      "sha": "c3be9f5090add6b468397395e457a1980e91f453"
+    },
+    {
+      "from": "Deploying your ML Model/flask_hello_world.py",
+      "to": "tutorials/deployment/flask/flask_hello_world.py",
+      "sha": "b6150931a4c61e279c529d4eda47183fa6d921b1"
+    },
+    {
+      "from": "Deploying your ML Model/make_request.py",
+      "to": "tutorials/deployment/flask/make_request.py",
+      "sha": "6efa935c3d9b810a4685ff7544cd6f97ac9772e2"
+    },
+    {
+      "from": "Deploying your ML Model/requirements.txt",
+      "to": "tutorials/deployment/flask/requirements.txt",
+      "sha": "6d4798c33242fa67accbf9690d0d7adf18026451"
+    },
+    {
+      "from": "Deploying your ML Model/rest_api_example.py",
+      "to": "tutorials/deployment/flask/rest_api_example.py",
+      "sha": "8a87f7a9708a9fcd5078a5e7961b45bae03de141"
+    },
+    {
+      "from": "Deploying your ML Model/templates/index.html",
+      "to": "tutorials/deployment/flask/templates/index.html",
+      "sha": "78f80bf3a65590d9ceadb77e6bc5dc5ca562dca0"
+    },
+    {
+      "from": "Deploying your ML Model/website_example.py",
+      "to": "tutorials/deployment/flask/website_example.py",
+      "sha": "3a0d13d20a555867766cc22bb270a0cc04cf8e1a"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/discord_bot_example.py",
+      "to": "tutorials/integrations/discord-sentiment/discord_bot_example.py",
+      "sha": "b0629d5bc5438e73f31c829d62e30afcd87671bc"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/requirements.txt",
+      "to": "tutorials/integrations/discord-sentiment/requirements.txt",
+      "sha": "e1ce508ea398de3cdcd2d720bc2db9db5a99ad53"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/sentiment_bot.py",
+      "to": "tutorials/integrations/discord-sentiment/sentiment_bot.py",
+      "sha": "a16f675b88aacc726f4dc093f8aa7ba39607eb39"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/vader_example_1.py",
+      "to": "tutorials/integrations/discord-sentiment/vader_example_1.py",
+      "sha": "0b620350cd1d73e6e8c33202b3855dc64a1a6265"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/vader_example_2.py",
+      "to": "tutorials/integrations/discord-sentiment/vader_example_2.py",
+      "sha": "576274c2e312d96db9acef31ee9c89147d01960a"
+    },
+    {
+      "from": "Discord Sentiment Analysis Bot/vader_example_3.py",
+      "to": "tutorials/integrations/discord-sentiment/vader_example_3.py",
+      "sha": "e9abf8a10614f50a545ee4ef463c601b2dcf75b3"
+    },
+    {
+      "from": "FastAI/ Multi-label prediction with Planet Amazon dataset.ipynb",
+      "to": "tutorials/deep-learning/fastai/ Multi-label prediction with Planet Amazon dataset.ipynb",
+      "sha": "715d958bdbc3376fe376ce2dd34644a5b85f7171"
+    },
+    {
+      "from": "FastAI/Animal detector from Google images.ipynb",
+      "to": "tutorials/deep-learning/fastai/Animal detector from Google images.ipynb",
+      "sha": "a83f324e7b08245ee7eb002b0944e7bea420c4fa"
+    },
+    {
+      "from": "FastAI/Book Recommendation System.ipynb",
+      "to": "tutorials/deep-learning/fastai/Book Recommendation System.ipynb",
+      "sha": "16e6b93ca7c2ae20ac9fbb41802b8a856c0d351b"
+    },
+    {
+      "from": "FastAI/Image segmentation on CamVid dataset.ipynb",
+      "to": "tutorials/deep-learning/fastai/Image segmentation on CamVid dataset.ipynb",
+      "sha": "f2420c5f9b7a215c74323412e07a198b9b8ca0db"
+    },
+    {
+      "from": "FastAI/README.md",
+      "to": "tutorials/deep-learning/fastai/README.md",
+      "sha": "8bd806ebd2bbc0a5b204b7e127b918b2003d5619"
+    },
+    {
+      "from": "FastAI/Twitter US Airline Sentiment.ipynb",
+      "to": "tutorials/deep-learning/fastai/Twitter US Airline Sentiment.ipynb",
+      "sha": "6716081606e2848d7cdafcddbedabd14bca3add2"
+    },
+    {
+      "from": "FastAI/requirements.txt",
+      "to": "tutorials/deep-learning/fastai/requirements.txt",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "from": "Google Coral USB Accelerator/live_image_classification.py",
+      "to": "tutorials/computer-vision/coral-usb/live_image_classification.py",
+      "sha": "1ecf19b5f03b7f717b0d76348baadfa36d5c1a84"
+    },
+    {
+      "from": "Google Coral USB Accelerator/live_object_detection.py",
+      "to": "tutorials/computer-vision/coral-usb/live_object_detection.py",
+      "sha": "47f149748d8ef2cd84a9bde17dc4ee1a0b4f1d5b"
+    },
+    {
+      "from": "Google Coral USB Accelerator/requirements.txt",
+      "to": "tutorials/computer-vision/coral-usb/requirements.txt",
+      "sha": "f314956893fffc0722d681eea8c26b506d2b9a3a"
+    },
+    {
+      "from": "Introduction to Data Visualization in Python/Introduction to Data Visualization in Python.ipynb",
+      "to": "tutorials/data-analysis/visualization/Introduction to Data Visualization in Python.ipynb",
+      "sha": "c6177064e7f12b6207c6d7ba7c2fe26cb36f1381"
+    },
+    {
+      "from": "Introduction to Data Visualization in Python/iris.csv",
+      "to": "tutorials/data-analysis/visualization/iris.csv",
+      "sha": "5c4316cd695e7c72f1db7ef496ffd2d2ef705b25"
+    },
+    {
+      "from": "Introduction to Data Visualization in Python/requirements.txt",
+      "to": "tutorials/data-analysis/visualization/requirements.txt",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "from": "Introduction to Data Visualization in Python/winemag-data-130k-v2.csv",
+      "to": "tutorials/data-analysis/visualization/winemag-data-130k-v2.csv",
+      "sha": "c2569efdcf4bb0401665233b995a39d1b18d8506"
+    },
+    {
+      "from": "Introduction to Deep Learning with Keras/Introduction to Deep Learning with Keras.ipynb",
+      "to": "tutorials/deep-learning/keras-introduction/Introduction to Deep Learning with Keras.ipynb",
+      "sha": "b85b5b265137bc28e47c9bcf4c01e8856b19b8a8"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection.sln",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection.sln",
+      "sha": "a69f21036de770d951bc8c6873bf61371071fe28"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/CreditCardFraudDetection.csproj",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/CreditCardFraudDetection.csproj",
+      "sha": "80e345f190a4969094e78cb59590411348d11421"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/DataModels/ModelInput.cs",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/DataModels/ModelInput.cs",
+      "sha": "d0f221f2ef6da6d84983373cedf4ca6ed298e8f1"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/DataModels/ModelOutput.cs",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/DataModels/ModelOutput.cs",
+      "sha": "f1e87f609d6581e09f472e98676822b9c194165d"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/ModelBuilder.cs",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/ModelBuilder.cs",
+      "sha": "4438fe30782ba50082cd02cb1a40a6838fd57aa2"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/Program.cs",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/Program.cs",
+      "sha": "2b060c41041f4543dbef7e4d4f1eb4338efb0c2b"
+    },
+    {
+      "from": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/assets/model.zip",
+      "to": "tutorials/machine-learning/mlnet-credit-card-fraud/CreditCardFraudDetection/CreditCardFraudDetection/assets/model.zip",
+      "sha": "5a6d0a5c8d52a91cbb22ae738d47e24495bf6913"
+    },
+    {
+      "from": "Introduction to Web Scraping with BeautifulSoup/WebScraping_Introduction.ipynb",
+      "to": "tutorials/data-collection/beautifulsoup-introduction/WebScraping_Introduction.ipynb",
+      "sha": "a616e0445679f2107c8c36e85629eb8b03a7aa3d"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/README.md",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/README.md",
+      "sha": "82cb285b945581357aafe9eb855ccda90abaf6be"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/classify.png",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/classify.png",
+      "sha": "1a1b936de1b4f1a9f4593108a7d5604af1d61cde"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/keras_cnn.py",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/keras_cnn.py",
+      "sha": "ebff7a81fa78b2817416b955419ca9fe1c6b1e9f"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/mnist_model.h5",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/mnist_model.h5",
+      "sha": "952301589bb6a473db6fa9e532cd557ff1f73cd8"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/model.json",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/model.json",
+      "sha": "d203d5ede41f4d18740b954f5f45b9d62b833f0d"
+    },
+    {
+      "from": "Keras-Tutorials/1-3. CNN MNIST/paintApp.py",
+      "to": "tutorials/deep-learning/keras-series/1-3. CNN MNIST/paintApp.py",
+      "sha": "88d903b9851f005e00043735c097a9c77e982c91"
+    },
+    {
+      "from": "Keras-Tutorials/4. LSTM Text Generation/Keras LSTM Text Generation.ipynb",
+      "to": "tutorials/deep-learning/keras-series/4. LSTM Text Generation/Keras LSTM Text Generation.ipynb",
+      "sha": "d32fce8ba29625356681a74f0aa8cb8fc14e470b"
+    },
+    {
+      "from": "Keras-Tutorials/4. LSTM Text Generation/README.md",
+      "to": "tutorials/deep-learning/keras-series/4. LSTM Text Generation/README.md",
+      "sha": "4b02872b67f15fcd1487a5fdc713ba14c136ad67"
+    },
+    {
+      "from": "Keras-Tutorials/4. LSTM Text Generation/sherlock_homes.txt",
+      "to": "tutorials/deep-learning/keras-series/4. LSTM Text Generation/sherlock_homes.txt",
+      "sha": "18fa14588393b0cf58f1e9814b60633660358b4a"
+    },
+    {
+      "from": "Keras-Tutorials/4. LSTM Text Generation/weights.hdf5",
+      "to": "tutorials/deep-learning/keras-series/4. LSTM Text Generation/weights.hdf5",
+      "sha": "fdf4335039ea7605295e4947e4e048a8c23f38cb"
+    },
+    {
+      "from": "Keras-Tutorials/5. Stock Price Prediction using a Recurrent Neural Network/AAPL_data.csv",
+      "to": "tutorials/deep-learning/keras-series/5. Stock Price Prediction using a Recurrent Neural Network/AAPL_data.csv",
+      "sha": "79ff2de4ce70e5504782c3fa28cffc59a92a213b"
+    },
+    {
+      "from": "Keras-Tutorials/5. Stock Price Prediction using a Recurrent Neural Network/README.md",
+      "to": "tutorials/deep-learning/keras-series/5. Stock Price Prediction using a Recurrent Neural Network/README.md",
+      "sha": "0dcaffd5472aceec70d60ff704853b506c173b53"
+    },
+    {
+      "from": "Keras-Tutorials/5. Stock Price Prediction using a Recurrent Neural Network/Stock Price Prediction.ipynb",
+      "to": "tutorials/deep-learning/keras-series/5. Stock Price Prediction using a Recurrent Neural Network/Stock Price Prediction.ipynb",
+      "sha": "213ae52da7f4462822b94bc0ac6c37f05e78a725"
+    },
+    {
+      "from": "Keras-Tutorials/5. Stock Price Prediction using a Recurrent Neural Network/stock_prediction.h5",
+      "to": "tutorials/deep-learning/keras-series/5. Stock Price Prediction using a Recurrent Neural Network/stock_prediction.h5",
+      "sha": "70e972ec6703a4395dcd0b89d06727f0b0d5d8aa"
+    },
+    {
+      "from": "Keras-Tutorials/6. Sentiment Analysis/README.md",
+      "to": "tutorials/deep-learning/keras-series/6. Sentiment Analysis/README.md",
+      "sha": "21828412533b09c4f20a2515a55e008eea08aafb"
+    },
+    {
+      "from": "Keras-Tutorials/6. Sentiment Analysis/Sentiment Analysis.ipynb",
+      "to": "tutorials/deep-learning/keras-series/6. Sentiment Analysis/Sentiment Analysis.ipynb",
+      "sha": "ed26066dd1c081a92a5150b64cc80f11d9db1361"
+    },
+    {
+      "from": "Keras-Tutorials/6. Sentiment Analysis/Tweets.csv",
+      "to": "tutorials/deep-learning/keras-series/6. Sentiment Analysis/Tweets.csv",
+      "sha": "f83577836b94b1f961eccc6f90c4c1b6d5c5a904"
+    },
+    {
+      "from": "Keras-Tutorials/6. Sentiment Analysis/sentiment_analysis.h5",
+      "to": "tutorials/deep-learning/keras-series/6. Sentiment Analysis/sentiment_analysis.h5",
+      "sha": "f922d00502b0f7be166aa81c020916f797fd8f42"
+    },
+    {
+      "from": "Keras-Tutorials/7. Autoencoder/Autoencoder.ipynb",
+      "to": "tutorials/deep-learning/keras-series/7. Autoencoder/Autoencoder.ipynb",
+      "sha": "e55d47412298013cc255be05fe8c55cdd55aad57"
+    },
+    {
+      "from": "Keras-Tutorials/7. Autoencoder/README.md",
+      "to": "tutorials/deep-learning/keras-series/7. Autoencoder/README.md",
+      "sha": "95323bbea5a401c8c3c296432ec777eb39fb761a"
+    },
+    {
+      "from": "Keras-Tutorials/8. Hyperparameter Tuning using the Scikit Learn Wrapper/Keras #8 - Keras Hyperparameter Tuning using Scikit Learn Wrapper.ipynb",
+      "to": "tutorials/deep-learning/keras-series/8. Hyperparameter Tuning using the Scikit Learn Wrapper/Keras #8 - Keras Hyperparameter Tuning using Scikit Learn Wrapper.ipynb",
+      "sha": "cd588c060a6754227a028b5a6f8c8efacf2b6d51"
+    },
+    {
+      "from": "Keras-Tutorials/8. Hyperparameter Tuning using the Scikit Learn Wrapper/README.md",
+      "to": "tutorials/deep-learning/keras-series/8. Hyperparameter Tuning using the Scikit Learn Wrapper/README.md",
+      "sha": "1fdf3ffaa5ef43e291678777287c910c4738bea0"
+    },
+    {
+      "from": "Keras-Tutorials/9. Using pretrained models/Keras #9 Using the pretrained Models.ipynb",
+      "to": "tutorials/deep-learning/keras-series/9. Using pretrained models/Keras #9 Using the pretrained Models.ipynb",
+      "sha": "307400fb39f4dfca4f5ab848742216ac172b43da"
+    },
+    {
+      "from": "Keras-Tutorials/9. Using pretrained models/elephant.jpg",
+      "to": "tutorials/deep-learning/keras-series/9. Using pretrained models/elephant.jpg",
+      "sha": "25a78cdbacbc2d902c894b4f1baf36b949e5f36a"
+    },
+    {
+      "from": "Keras-Tutorials/README.md",
+      "to": "tutorials/deep-learning/keras-series/README.md",
+      "sha": "067a2a568d818abab5998675978df6922a240808"
+    },
+    {
+      "from": "Keras-Tutorials/requirements.txt",
+      "to": "tutorials/deep-learning/keras-series/requirements.txt",
+      "sha": "028a566ed1b66d29c3c107dd9a0339f0ed95f292"
+    },
+    {
+      "from": "Machine-Learning-Explained/Linear Regression Explained.ipynb",
+      "to": "tutorials/machine-learning/linear-regression/Linear Regression Explained.ipynb",
+      "sha": "3aef8146b9c70e2c8816a29f84394afc72b9ad46"
+    },
+    {
+      "from": "Machine-Learning-Explained/README.md",
+      "to": "tutorials/machine-learning/linear-regression/README.md",
+      "sha": "cb89f1119c7b5ed633bbba1492e28a7c399f8ad8"
+    },
+    {
+      "from": "Recommendation System/Recommendation System.ipynb",
+      "to": "tutorials/machine-learning/recommendation-system/Recommendation System.ipynb",
+      "sha": "509f284246c46f5339fd96688c4edac0affcd953"
+    },
+    {
+      "from": "Recommendation System/book_tags.csv",
+      "to": "tutorials/machine-learning/recommendation-system/book_tags.csv",
+      "sha": "f328e81c98186093e1dfec120b7da9611d6d0c96"
+    },
+    {
+      "from": "Recommendation System/books.csv",
+      "to": "tutorials/machine-learning/recommendation-system/books.csv",
+      "sha": "db4a3d2e7e72aa11b7c0e5ef327a9dbdec568d27"
+    },
+    {
+      "from": "Recommendation System/ratings.csv",
+      "to": "tutorials/machine-learning/recommendation-system/ratings.csv",
+      "sha": "f13b3086e81f31d60308b34f386fc36ebc3d3f4c"
+    },
+    {
+      "from": "Recommendation System/regression_model.h5",
+      "to": "tutorials/machine-learning/recommendation-system/regression_model.h5",
+      "sha": "aab6bb891f64cc368d31d31f0e7e31568f5afec9"
+    },
+    {
+      "from": "Recommendation System/regression_model2.h5",
+      "to": "tutorials/machine-learning/recommendation-system/regression_model2.h5",
+      "sha": "e33f4b6a18c55209d149990448d33bd9d68a7299"
+    },
+    {
+      "from": "Recommendation System/sample_book.xml",
+      "to": "tutorials/machine-learning/recommendation-system/sample_book.xml",
+      "sha": "9a73f5a7ed8a2b07df2e1ff8817c3d7870e0a452"
+    },
+    {
+      "from": "Recommendation System/tags.csv",
+      "to": "tutorials/machine-learning/recommendation-system/tags.csv",
+      "sha": "47576ad25c46656d09a446eacf373aeb7f01e63e"
+    },
+    {
+      "from": "Recommendation System/to_read.csv",
+      "to": "tutorials/machine-learning/recommendation-system/to_read.csv",
+      "sha": "45d4f04808ce7f45624e84c1f2b94d609599d667"
+    },
+    {
+      "from": "Reddit Webscraping using PRAW/Reddit API.ipynb",
+      "to": "tutorials/data-collection/reddit-praw/Reddit API.ipynb",
+      "sha": "80dc74d3d1e35c676f38acc107f6ce77ec41d51a"
+    },
+    {
+      "from": "Reddit Webscraping using PRAW/top_ml_subreddit_posts.csv",
+      "to": "tutorials/data-collection/reddit-praw/top_ml_subreddit_posts.csv",
+      "sha": "27976dab9cb2c0f2fb33385e6f9751fc6c5e72dc"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/1. Introduction.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/1. Introduction.ipynb",
+      "sha": "e9e3ab2cb2faf999e547081fbdc4f76aaed6ce12"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/10. Cross Validation and Model Selection.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/10. Cross Validation and Model Selection.ipynb",
+      "sha": "407c044f271d53b37e3cb993e35d87cbb68b6369"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/11. Hyperparameter Tuning.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/11. Hyperparameter Tuning.ipynb",
+      "sha": "adc7852287359f649dd19d0d06b00dd0a4828403"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/12. Preprocessing.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/12. Preprocessing.ipynb",
+      "sha": "47f1d2f9838b8f30201d924552e822943147f6e0"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/13. Feature extraction.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/13. Feature extraction.ipynb",
+      "sha": "6f60163e7a98690bd9e79b099071c56fb39928cd"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/14. Machine Learning Process.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/14. Machine Learning Process.ipynb",
+      "sha": "f8799477e8b73f96933d7640b537854d7571efe2"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/2. Setup and Benefits of Scikit Learn.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/2. Setup and Benefits of Scikit Learn.ipynb",
+      "sha": "7562f18d56a2b6febe62a7664db48d31d54dea05"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/3. Training a model on the Iris Dataset.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/3. Training a model on the Iris Dataset.ipynb",
+      "sha": "0d80a074e4c4152e746c039fd1613f154b892451"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/4. Training, Testing Datasets.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/4. Training, Testing Datasets.ipynb",
+      "sha": "e5c51e14addc6d3f29121e6df998122249c99689"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/5. Classification Algorithms.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/5. Classification Algorithms.ipynb",
+      "sha": "6a10285ea93e47d15057b7e2fa7c6ea9303a60b4"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/6. Regression Algorithms.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/6. Regression Algorithms.ipynb",
+      "sha": "ff59149328e152b6c1023ec25e17254da089f986"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/7. Clustering Algorithms.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/7. Clustering Algorithms.ipynb",
+      "sha": "3c99dd741dc371a9062da0e53e18d3178bac356a"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/8. Dimensionality Reduction.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/8. Dimensionality Reduction.ipynb",
+      "sha": "48744e698a57528282972d8217e4f043114cbda8"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/9. Dimensionality Reduction 2.ipynb",
+      "to": "tutorials/machine-learning/scikit-learn/9. Dimensionality Reduction 2.ipynb",
+      "sha": "d13ec81be0de61ad8111f47d15029b50f909cbac"
+    },
+    {
+      "from": "Scikit-Learn-Tutorial/README.md",
+      "to": "tutorials/machine-learning/scikit-learn/README.md",
+      "sha": "1ba45cec0d9bdca7070d77c43e2277941899c74c"
+    },
+    {
+      "from": "Streamlit/Deploy-Application-with-Heroku/Procfile",
+      "to": "tutorials/deployment/streamlit/Deploy-Application-with-Heroku/Procfile",
+      "sha": "645733f87f669c987ab32bcdef6d20a334882fc0"
+    },
+    {
+      "from": "Streamlit/Deploy-Application-with-Heroku/README.md",
+      "to": "tutorials/deployment/streamlit/Deploy-Application-with-Heroku/README.md",
+      "sha": "e94f7cb0019b49ff2b72286cb066d4f24df28dd8"
+    },
+    {
+      "from": "Streamlit/Deploy-Application-with-Heroku/app.py",
+      "to": "tutorials/deployment/streamlit/Deploy-Application-with-Heroku/app.py",
+      "sha": "e42563fde9bc130ba229c95ea119b1138c58c2b6"
+    },
+    {
+      "from": "Streamlit/Deploy-Application-with-Heroku/requirements.txt",
+      "to": "tutorials/deployment/streamlit/Deploy-Application-with-Heroku/requirements.txt",
+      "sha": "d43046ef96f48531694910ee2171a12dbc6ffa24"
+    },
+    {
+      "from": "Streamlit/Deploy-Application-with-Heroku/setup.sh",
+      "to": "tutorials/deployment/streamlit/Deploy-Application-with-Heroku/setup.sh",
+      "sha": "c8650a8b74a58d9a5f53b185fd711c5668e1cd52"
+    },
+    {
+      "from": "Streamlit/Examples/Stock-Price-Dashboard/AAPL_data.csv",
+      "to": "tutorials/deployment/streamlit/Examples/Stock-Price-Dashboard/AAPL_data.csv",
+      "sha": "79ff2de4ce70e5504782c3fa28cffc59a92a213b"
+    },
+    {
+      "from": "Streamlit/Examples/Stock-Price-Dashboard/app.py",
+      "to": "tutorials/deployment/streamlit/Examples/Stock-Price-Dashboard/app.py",
+      "sha": "5ba426e3ee1d2bff282e924cba3fadc40a32e63d"
+    },
+    {
+      "from": "Streamlit/Examples/Stock-Price-Dashboard/requirements.txt",
+      "to": "tutorials/deployment/streamlit/Examples/Stock-Price-Dashboard/requirements.txt",
+      "sha": "d30086d6fb4582994b99968643fc38259c2ce0ec"
+    },
+    {
+      "from": "Streamlit/README.md",
+      "to": "tutorials/deployment/streamlit/README.md",
+      "sha": "e85cc951ac3943b94e54c98a05a032e20c722228"
+    },
+    {
+      "from": "Streamlit/doc/deployment_example_application.png",
+      "to": "tutorials/deployment/streamlit/doc/deployment_example_application.png",
+      "sha": "245989624dc7e3d143dada531d617c6dd94b916a"
+    },
+    {
+      "from": "Streamlit/doc/stock-price-dashboard.PNG",
+      "to": "tutorials/deployment/streamlit/doc/stock-price-dashboard.PNG",
+      "sha": "d11edcf39c58a70f291ab7cb5a28b8d316a3818c"
+    },
+    {
+      "from": "Streamlit/doc/streamlit_example.gif",
+      "to": "tutorials/deployment/streamlit/doc/streamlit_example.gif",
+      "sha": "e310b3e6530d9d0140fd50330221f580f538b875"
+    },
+    {
+      "from": "Tensorflow Object Detection/Installing_the_Tensorflow_Object_Detection_API.ipynb",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/Installing_the_Tensorflow_Object_Detection_API.ipynb",
+      "sha": "625011aa862ecfa15c8d39b344cb1cec33fc529b"
+    },
+    {
+      "from": "Tensorflow Object Detection/README.md",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/README.md",
+      "sha": "b340b7b35885e20ed5c14c4af2c130564a767671"
+    },
+    {
+      "from": "Tensorflow Object Detection/detect_object_in_webcam_video.ipynb",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/detect_object_in_webcam_video.ipynb",
+      "sha": "fa3960b36405f7733d4385223d481d07ba90cd4e"
+    },
+    {
+      "from": "Tensorflow Object Detection/object_detection_tutorial.ipynb",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/object_detection_tutorial.ipynb",
+      "sha": "9100ed9b6b54bd1b7c917eafccea461e75006c69"
+    },
+    {
+      "from": "Tensorflow Object Detection/object_detection_with_own_model.ipynb",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/object_detection_with_own_model.ipynb",
+      "sha": "b22e2f0bbea24c4df473bf9c91e1c8eb63e6e120"
+    },
+    {
+      "from": "Tensorflow Object Detection/requirements.txt",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/requirements.txt",
+      "sha": "61cfd0473013141d0bd6a539326ff8b5baae17c0"
+    },
+    {
+      "from": "Tensorflow Object Detection/result.PNG",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/result.PNG",
+      "sha": "ea11d1a02734aad8e2f1e3664b277128df9328f9"
+    },
+    {
+      "from": "Tensorflow Object Detection/surveillance.py",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/surveillance.py",
+      "sha": "628c63c85803b5256d7c40d3815def1036877fb7"
+    },
+    {
+      "from": "Tensorflow Object Detection/surveillance_with_imutils.py",
+      "to": "tutorials/computer-vision/tensorflow-object-detection/surveillance_with_imutils.py",
+      "sha": "f8858d700c1cca568531295c4aabd4274ef64874"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/1. Basics/index.html",
+      "to": "tutorials/deep-learning/tensorflowjs/1. Basics/index.html",
+      "sha": "c1f328ed77ae1238d073998b05fc2becb6a67b4c"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/1. Basics/script.js",
+      "to": "tutorials/deep-learning/tensorflowjs/1. Basics/script.js",
+      "sha": "4278d9f66189f8310427351837f1af36cb805bd9"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/2. Create and train a model using the Main API/index.html",
+      "to": "tutorials/deep-learning/tensorflowjs/2. Create and train a model using the Main API/index.html",
+      "sha": "8f20c4f45bd795252fc2e37be797907c6c194e01"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/2. Create and train a model using the Main API/script.js",
+      "to": "tutorials/deep-learning/tensorflowjs/2. Create and train a model using the Main API/script.js",
+      "sha": "184b13614019c97cd0cdfacd098849f3ba35315a"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/3. Layers API Introduction/index.html",
+      "to": "tutorials/deep-learning/tensorflowjs/3. Layers API Introduction/index.html",
+      "sha": "dd578484ef14a8963cdb5fc503ff6756efc07ae4"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/3. Layers API Introduction/script.js",
+      "to": "tutorials/deep-learning/tensorflowjs/3. Layers API Introduction/script.js",
+      "sha": "a66695583a2e78a39edad072cf9ee024efdbde07"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/4. Layers API Example/index.html",
+      "to": "tutorials/deep-learning/tensorflowjs/4. Layers API Example/index.html",
+      "sha": "ddc6a5b402dc64d67a5dc3d510fba2e6ac213de8"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/4. Layers API Example/iris.json",
+      "to": "tutorials/deep-learning/tensorflowjs/4. Layers API Example/iris.json",
+      "sha": "9b3a2e84e0b307984647b8f68e1a8f56156739ef"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/4. Layers API Example/script.js",
+      "to": "tutorials/deep-learning/tensorflowjs/4. Layers API Example/script.js",
+      "sha": "368921479dab9236aceba07bcbff80a7fa242ff6"
+    },
+    {
+      "from": "TensorflowJS-Tutorials/README.md",
+      "to": "tutorials/deep-learning/tensorflowjs/README.md",
+      "sha": "32fec2de8e7b415ba04b30f06aa5aa463115ca0d"
+    },
+    {
+      "from": "Uber Ludwig Examples/Amazonas Satellit Dataset/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/Amazonas Satellit Dataset/model_definition.yaml",
+      "sha": "fe1ec05cd3189f9fb6e303e1c5b2a58b71ba1707"
+    },
+    {
+      "from": "Uber Ludwig Examples/French-English Bilingual Pairs/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/French-English Bilingual Pairs/model_definition.yaml",
+      "sha": "3e622f6e36c17790d36f9ed1048afbf977886609"
+    },
+    {
+      "from": "Uber Ludwig Examples/French-English Bilingual Pairs/txt_to_csv.py",
+      "to": "tutorials/deep-learning/ludwig-examples/French-English Bilingual Pairs/txt_to_csv.py",
+      "sha": "a79c38b565483682aa7ad9b82c4dfb210e2d6918"
+    },
+    {
+      "from": "Uber Ludwig Examples/Heart Disease Dataset/heart.csv",
+      "to": "tutorials/deep-learning/ludwig-examples/Heart Disease Dataset/heart.csv",
+      "sha": "1939fc623ebcf6bc68b363b58fc955c4d12bd969"
+    },
+    {
+      "from": "Uber Ludwig Examples/Heart Disease Dataset/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/Heart Disease Dataset/model_definition.yaml",
+      "sha": "6a16b5c67f44ea6d32834ff47c589918a41b6103"
+    },
+    {
+      "from": "Uber Ludwig Examples/Malaria Cell Images Dataset/create_csv.py",
+      "to": "tutorials/deep-learning/ludwig-examples/Malaria Cell Images Dataset/create_csv.py",
+      "sha": "eb1f96c10c4963b96ecf752809fa70ac0ae91936"
+    },
+    {
+      "from": "Uber Ludwig Examples/Malaria Cell Images Dataset/model_definition_custom.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/Malaria Cell Images Dataset/model_definition_custom.yaml",
+      "sha": "db29f99eda4ecc4e7c31fd5d3398785fcd14c78e"
+    },
+    {
+      "from": "Uber Ludwig Examples/Malaria Cell Images Dataset/model_definition_simple.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/Malaria Cell Images Dataset/model_definition_simple.yaml",
+      "sha": "46ecb2f8f61f7d24bd3dcb09aa3cbdcc3a19aee0"
+    },
+    {
+      "from": "Uber Ludwig Examples/Titanic Survival Prediction/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/Titanic Survival Prediction/model_definition.yaml",
+      "sha": "630675b748e47056d9efa5e382f6eddd7fd45290"
+    },
+    {
+      "from": "Uber Ludwig Examples/Titanic Survival Prediction/test.csv",
+      "to": "tutorials/deep-learning/ludwig-examples/Titanic Survival Prediction/test.csv",
+      "sha": "2ed7ef490ea2fa45f3e140ef4784aa6b91187400"
+    },
+    {
+      "from": "Uber Ludwig Examples/Titanic Survival Prediction/train.csv",
+      "to": "tutorials/deep-learning/ludwig-examples/Titanic Survival Prediction/train.csv",
+      "sha": "5cc466e97cf12f155d19b9f717425214075d0b7a"
+    },
+    {
+      "from": "Uber Ludwig Examples/spoken-digit-speech-recognition/README.md",
+      "to": "tutorials/deep-learning/ludwig-examples/spoken-digit-speech-recognition/README.md",
+      "sha": "e6805df1c97c794373aae290c8dc0b1cdca15663"
+    },
+    {
+      "from": "Uber Ludwig Examples/spoken-digit-speech-recognition/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-examples/spoken-digit-speech-recognition/model_definition.yaml",
+      "sha": "edb3f9a12edc6eb66cc22d22ce7235ede4ad72b7"
+    },
+    {
+      "from": "Uber Ludwig Examples/spoken-digit-speech-recognition/use_model.py",
+      "to": "tutorials/deep-learning/ludwig-examples/spoken-digit-speech-recognition/use_model.py",
+      "sha": "1ebed86203b70d4bc3122d29a5019c50aad51634"
+    },
+    {
+      "from": "Uber Ludwig Introduction/Tweets.csv",
+      "to": "tutorials/deep-learning/ludwig-introduction/Tweets.csv",
+      "sha": "f83577836b94b1f961eccc6f90c4c1b6d5c5a904"
+    },
+    {
+      "from": "Uber Ludwig Introduction/model_definition.yaml",
+      "to": "tutorials/deep-learning/ludwig-introduction/model_definition.yaml",
+      "sha": "1f65e13cafe81429af86aca37c404d6b25001b77"
+    },
+    {
+      "from": "Uber Ludwig Introduction/model_definition_2.yaml",
+      "to": "tutorials/deep-learning/ludwig-introduction/model_definition_2.yaml",
+      "sha": "2044e7cdc2933b7bfe13ccd1242e0a7d77b4806f"
+    },
+    {
+      "from": "Uber Ludwig Introduction/python_example.py",
+      "to": "tutorials/deep-learning/ludwig-introduction/python_example.py",
+      "sha": "8f54fda070095d52a8f7c255ada4f6ad71c8eb86"
+    },
+    {
+      "from": "VuePress Documentation Website/.vuepress/config.js",
+      "to": "tutorials/documentation/vuepress/.vuepress/config.js",
+      "sha": "6d8e119dced4c31ef9fd9c2ff0abf0ae73261ec1"
+    },
+    {
+      "from": "VuePress Documentation Website/README.md",
+      "to": "tutorials/documentation/vuepress/README.md",
+      "sha": "2ddb1f5467e8ee6f0ef2c482b2826302911354d0"
+    },
+    {
+      "from": "VuePress Documentation Website/guide/More Informations.md",
+      "to": "tutorials/documentation/vuepress/guide/More Informations.md",
+      "sha": "75d5029d649bf373f3787c79592fef51f5bbf21d"
+    },
+    {
+      "from": "VuePress Documentation Website/guide/README.md",
+      "to": "tutorials/documentation/vuepress/guide/README.md",
+      "sha": "36cf14c732f60755a3f9bcb5f53525a4643b99ca"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/Web Scraping using Selenium and Beautiful Soup.ipynb",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/Web Scraping using Selenium and Beautiful Soup.ipynb",
+      "sha": "5076245b0fe79c2368f94053f3beedc3063b5122"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks0.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks0.txt",
+      "sha": "5d37f3be5e50a04f3c4999a64055cf63ddb7ba18"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks1.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks1.txt",
+      "sha": "7419766e4e8c9dc21e6f9abf4164a899d863186b"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks2.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks2.txt",
+      "sha": "c81ccd3c03a8e731fbf86d64e75e258dd932a678"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks3.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks3.txt",
+      "sha": "b20d9f52795d947fab81e9120924232f025f209d"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks4.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks4.txt",
+      "sha": "447b576eae5bd841eef9c4bfc48cd1aaf535f7dc"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks5.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks5.txt",
+      "sha": "41b2b98c97f125a3f5af65bbb912cf928e0a5ae5"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks6.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks6.txt",
+      "sha": "2488fa39f33dafd549a2f219c97abcb235d7338b"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks7.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks7.txt",
+      "sha": "91e3ad9c63bb36de06cc2fe8367fd874e6488ebd"
+    },
+    {
+      "from": "Web Scraping using Selenium and BeautifulSoup/code_blocks8.txt",
+      "to": "tutorials/data-collection/selenium-beautifulsoup/code_blocks8.txt",
+      "sha": "871a02c5c6017ec5badf62e77a41a4208476abaf"
+    }
+  ],
+  "removed_generated_files": [
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/DesignTimeBuild/.dtbcache",
+      "sha": "6d272a62d03135149421fc65b86ccef3aac55b6f",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/v16/.suo",
+      "sha": "bd9c7f5c15f5197c2fb1455025c553a276c3639d",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/v16/Server/sqlite3/db.lock",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/v16/Server/sqlite3/storage.ide",
+      "sha": "54d33e22add7c8288c88ce4a60c10115eaa0db47",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/v16/Server/sqlite3/storage.ide-shm",
+      "sha": "d5054f195921c329acc86bb2e7f2eff60ccd551a",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/.vs/CreditCardFraudDetection/v16/Server/sqlite3/storage.ide-wal",
+      "sha": "ef886fd4310c0f7fcc2789dd350af96f2e6b08e8",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/bin/Debug/netcoreapp2.2/CreditCardFraudDetection.deps.json",
+      "sha": "3e328db5167310d9e7fe0404f8338bc89ad7b949",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/bin/Debug/netcoreapp2.2/CreditCardFraudDetection.dll",
+      "sha": "660fe3c7194dddbff288cb5c0535acc2e2f2645a",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/bin/Debug/netcoreapp2.2/CreditCardFraudDetection.pdb",
+      "sha": "e4aa2beaafe3f7319d158632b5dd15ef69a16eb2",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/bin/Debug/netcoreapp2.2/CreditCardFraudDetection.runtimeconfig.dev.json",
+      "sha": "2d69a5353aa015e595dba54c777620aa63fb1d55",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/bin/Debug/netcoreapp2.2/CreditCardFraudDetection.runtimeconfig.json",
+      "sha": "49dbda4c5cf9b10567fb36fd4c09d4f9358993e1",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/CreditCardFraudDetection.csproj.nuget.cache",
+      "sha": "125cb5569e1ca12dea60e41ae145c5022c518a98",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/CreditCardFraudDetection.csproj.nuget.dgspec.json",
+      "sha": "39521217ab411e6c34f69200b13bf02af834b1bf",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/CreditCardFraudDetection.csproj.nuget.g.props",
+      "sha": "815d149c5f1099452716cfaa8059f1ca4e8c2af6",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/CreditCardFraudDetection.csproj.nuget.g.targets",
+      "sha": "c0e365c9a5cb7f834a98975b81720afc1ffbdc53",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.AssemblyInfo.cs",
+      "sha": "29976a8eea5034ac4b91d8c9650e235ef1d5567f",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.AssemblyInfoInputs.cache",
+      "sha": "ca2f520ebe6e39f9e09dd2678f727610147e1862",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.assets.cache",
+      "sha": "74eaf4820f92c95dfe617fad18a790ae6cfb4c58",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.csproj.CoreCompileInputs.cache",
+      "sha": "a0e0cb9de8792540a52cc9dc8c3b85948730f731",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.csproj.FileListAbsolute.txt",
+      "sha": "0126e5245dd3e52c19055f77466e5900481dea81",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.csprojAssemblyReference.cache",
+      "sha": "4526d1dc5677ea96a46928793c40c3b64a94f7c8",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.dll",
+      "sha": "660fe3c7194dddbff288cb5c0535acc2e2f2645a",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/Debug/netcoreapp2.2/CreditCardFraudDetection.pdb",
+      "sha": "e4aa2beaafe3f7319d158632b5dd15ef69a16eb2",
+      "reason": "Generated IDE or build artifact"
+    },
+    {
+      "path": "Introduction to Machine Learning in C# with ML.NET/CreditCardFraudDetection/CreditCardFraudDetection/obj/project.assets.json",
+      "sha": "0a6628b5f267ce994bbe1cb418c34d61e1c59152",
+      "reason": "Generated IDE or build artifact"
+    }
+  ]
+}
